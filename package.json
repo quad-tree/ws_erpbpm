@@ -1,0 +1,21 @@
+{
+  "name": "ws-erpbpm",
+  "version": "1.0.0",
+  "description": "ws connector for erpnext and camunda using sockets",
+  "main": "./src/api_server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd ./src/&& node api_server.js"
+  },
+  "author": "Quad Tree SA de CV",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "qrcode": "^1.4.4",
+    "socket.io": "^2.1.1"
+  }
+}
